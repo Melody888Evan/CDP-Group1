@@ -2,119 +2,54 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="Online_ordering" />
       <artifact name="Online_ordering:Web exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b31c47a-a0fa-443a-88f9-b65cecfd392a" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/production/Online_ordering/" />
-    <ignored path="$PROJECT_DIR$/out/test/Online_ordering/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="7b31c47a-a0fa-443a-88f9-b65cecfd392a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/menu_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/menu_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/meal_order.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/meal_order.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BeanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/BeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyDataSourceUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/MyDataSourceUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c3p0-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#248#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meal_order.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/meal_order.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="345" column="12" selection-start-line="345" selection-start-column="12" selection-end-line="345" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminLoginFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/AdminLoginFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EncodingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/EncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoLoginFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/AutoLoginFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -123,103 +58,50 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="meal-order-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meal-order-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meal-order-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meal-order-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1dARQ4AGbkgTpdgLMF4Cxv29uot" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zyjnz\Documents\GitHub\CDP-Group1\WebContent" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="mealorder" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Online_ordering:Web exploded">
@@ -227,15 +109,20 @@
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <artifact name="Online_ordering">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Online_ordering" />
+          </settings>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_meal-order-master" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="57160" />
       </RunnerSettings>
@@ -284,9 +171,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Online_ordering:Web exploded" />
+          <artifact name="Online_ordering" />
         </option>
       </method>
     </configuration>
@@ -302,220 +191,85 @@
       <option name="presentableId" value="Default" />
       <updated>1591554986468</updated>
       <workItem from="1591554990032" duration="2526000" />
+      <workItem from="1591865894670" duration="9860000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2526000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32923076" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/impl/AdviceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/impl/MenuDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4924">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/AdviceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/MenuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/AdminMenuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/dao/impl/AdminMenuDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/LoginPageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/AutoLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/web/filter/AdminLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/domain/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/C3P0Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/onlineorder/utils/MyDataSourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#248#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/meal_order.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="345" column="12" selection-start-line="345" selection-start-column="12" selection-end-line="345" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591866652011">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1591866652011" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591869575302">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1591869575302" />
+    <state width="845" height="180" key="GridCell.Tab.0.bottom" timestamp="1591881556385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591881556385" />
+    <state width="845" height="180" key="GridCell.Tab.0.center" timestamp="1591881556384">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591881556384" />
+    <state width="845" height="180" key="GridCell.Tab.0.left" timestamp="1591881556384">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591881556384" />
+    <state width="845" height="180" key="GridCell.Tab.0.right" timestamp="1591881556385">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591881556385" />
+    <state width="845" height="180" key="GridCell.Tab.1.bottom" timestamp="1591881556246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591881556246" />
+    <state width="845" height="180" key="GridCell.Tab.1.center" timestamp="1591881556246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1591881556246" />
+    <state width="845" height="180" key="GridCell.Tab.1.left" timestamp="1591881556246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1591881556246" />
+    <state width="845" height="180" key="GridCell.Tab.1.right" timestamp="1591881556246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1591881556246" />
+    <state width="845" height="180" key="GridCell.Tab.2.bottom" timestamp="1591881556260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591881556260" />
+    <state width="845" height="180" key="GridCell.Tab.2.center" timestamp="1591881556251">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1591881556251" />
+    <state width="845" height="180" key="GridCell.Tab.2.left" timestamp="1591881556247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1591881556247" />
+    <state width="845" height="180" key="GridCell.Tab.2.right" timestamp="1591881556255">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="180" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1591881556255" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591881162006">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591881162006" />
   </component>
   <component name="masterDetails">
     <states>

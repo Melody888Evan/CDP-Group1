@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>网上订餐系统</title>
+		<title>Online Order System</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -55,40 +55,43 @@
 				<div class="wrap">
 					<div class="top-grid">
 						<a href="#"><img src="./images/icon1.png" title="icon-name"></a>
-						<h3>关于</h3>
-						<p>网上订餐就是互联网的深入应用。用户通过互联网，能足不出户，轻松闲逸地实现自己订购餐饮和食品（包括饭、菜、盒饭、便当等）的一种网络订餐形式。随着网上订餐平台的兴起，网上订餐已经逐渐成为了白领阶层中的一种潮流了。</p>
-						<a class="button" href="${pageContext.request.contextPath }/about">查看更多</a>
+						<h3>About</h3>
+						<p>Assignment2 CDP Group1</p>
+							<p>Yajie Zhang, Zhuoqun Zhang</p>
+						<a class="button" href="${pageContext.request.contextPath }/index">See More</a>
 					</div>
 					<div class="top-grid">
 						<a href="#"><img src="./images/icon2.png" title="icon-name"></a>
-						<h3>我们的服务</h3>
+						<h3>Our service</h3>
 						<p>统一订单及配送管理，提高配送效率！无忧售后，满足个性化需要。引领全新消费概念，订餐、消费拿积分！得精美礼品！</p>
-						<a class="button" href="${pageContext.request.contextPath }/about">查看更多</a>
+						<a class="button" href="${pageContext.request.contextPath }/index">See More</a>
 					</div>
 					<div class="top-grid last-topgrid">
 						<a href="#"><img src="./images/icon3.png" title="icon-name"></a>
 						<h3>Location</h3>
-						<p>广东省湛江市麻章区海大路1号</p>
-						<p>广东海洋大学</p>
-						<a class="button" href="${pageContext.request.contextPath }/about">查看更多</a>
+						<p>Palmerston North, New Zealand</p>
+						<p>Massey University</p>
+						<a class="button" href="${pageContext.request.contextPath }/index">See More</a>
+
+
 					</div>
 					<div class="clear"> </div>
 				</div>
 			</div>
 			<div class="gallerys">
 		 		<div class="wrap">
-					<h3>热门菜单</h3>
+					<h3>Hot Menu</h3>
 					<div class="gallery-grids">
 						<c:forEach items="${hotMenuList }" var="menu">
 							<div class="gallery-grid">
 								<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}">
 									<img src="${pageContext.request.contextPath }/${menu.image}" alt="">
-									<span>&yen;${menu.price}</span>
+									<span>$${menu.price}</span>
 								</a>
 								<h4>${menu.name}</h4>
-								<span style="color: red;">&yen;${menu.price}</span>
+								<span style="color: red;">$${menu.price}</span>
 								<div class="gallery-button">
-									<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}">下单</a>
+									<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}">Select</a>
 								</div>
 							</div>
 						</c:forEach>
@@ -96,25 +99,25 @@
 				    <div class="clear"> </div>
 				    <div class="projects-bottom-paination">
 						<div class="gallery-button" style="float:right; margin-right:150px; ">
-							<a style="background:#e25111;" href="${pageContext.request.contextPath }/menuListByCid">更多</a>
+							<a style="background:#e25111;" href="${pageContext.request.contextPath }/menuListByCid">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="gallerys">
 		 		<div class="wrap">
-					<h3>推荐菜单</h3>
+					<h3>Recommended</h3>
 						<div class="gallery-grids">
 							<c:forEach items="${newMenuList }" var="menu">
 								<div class="gallery-grid">
 									<a href="#">
 										<img src="${pageContext.request.contextPath }/${menu.image}" alt="">
-										<span>&yen;${menu.price}</span>
+										<span>$${menu.price}</span>
 									</a>
 									<h4>${menu.name}</h4>
-									<span style="color: red;">&yen;${menu.price}</span>
+									<span style="color: red;">$${menu.price}</span>
 									<div class="gallery-button">
-										<a href="#">下单</a>
+										<a href="#">Select</a>
 									</div>
 								</div>
 							</c:forEach>
@@ -122,17 +125,18 @@
 				    <div class="clear"> </div>
 				    <div class="projects-bottom-paination">
 						<div class="gallery-button" style="float:right; margin-right:150px; ">
-							<a style="background:#e25111;" href="${pageContext.request.contextPath }/menuListByCid">更多</a>
+							<a style="background:#e25111;" href="${pageContext.request.contextPath }/menuListByCid">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="mid-grid">
 				<div class="wrap">
-					<h1>欢迎光临我们的店铺！</h1>
-					<h2>本店致力于给客户提供更好的订餐、用餐体验！</h2>
-					<p>网上订餐就是互联网的深入应用。用户通过互联网，能足不出户，轻松闲逸地实现自己订购餐饮和食品（包括饭、菜、盒饭、便当等）的一种网络订餐形式。随着网上订餐平台的兴起，网上订餐已经逐渐成为了白领阶层中的一种潮流了。</p>
-				<!-- <a class="button1" href="#">Read More</a> -->
+					<h1>Welcome！</h1>
+
+					<p>This website provides online ordering service of Massey's Canteen.You can place an order in advance and come to the canteen to eat your meals without waiting in line,
+						or you can choose to deliver to the dormitory to order your own food and beverage.</p>
+
 				</div>
 			</div>
 		</div>
