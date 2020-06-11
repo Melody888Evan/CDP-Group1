@@ -11,10 +11,10 @@
 		<jsp:include page="/header.jsp"></jsp:include>
 		
 		<div style="min-height: 300px">
-			<div style="font-size: 30px;margin-top: 100px;margin-left: 200px;">订单已提交，等待商家接单中。。。</div>
+			<div style="font-size: 30px;margin-top: 100px;margin-left: 200px;">The order has been submitted, waiting for the merchant to receive the order...</div>
 			<br>
 			<div style="margin-left: 200px">
-				<a href="${pageContext.request.contextPath }/myOrders">查看我的订单</a>
+				<a href="${pageContext.request.contextPath }/myOrders">Check my order</a>
 			</div>
 		</div>
 		

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<title>我的订单</title>
+	<title>My Orders</title>
 	<script type="text/javascript">
 
 	</script>
@@ -20,26 +20,26 @@
 		<div class="row">
 			<div style="margin: 0 auto; margin-top: 25px; width: 1100px;">
 				<div style="margin-bottom: 10px;">
-					<strong style="font-size: 30px">我的订单</strong>
-					<a href="${pageContext.request.contextPath }/order_query_list.jsp" class="mybutton" style="text-decoration:none;float: right;">订单查询</a>
+					<strong style="font-size: 30px">My Orders</strong>
+					<a href="${pageContext.request.contextPath }/order_query_list.jsp" class="mybutton" style="text-decoration:none;float: right;">Order Inquiry</a>
 				</div>
 				<table class="table table-bordered">
 					<c:forEach items="${pageBean.list }" var="order">
 						<tbody>
 							<tr class="success">
 								<th colspan="5">
-									<span>订单编号:${order.oid }</span>
+									<span>Order Num:${order.oid }</span>
 									<span style="float: right;margin-right: 10px;">${order.state==1?"已付款":"未付款" }</span>
-									<span style="float: right;margin-right: 60px;">订单总额:&yen;${order.total_price }</span>
+									<span style="float: right;margin-right: 60px;">Total:$${order.total_price }</span>
 									<span style="float: right;margin-right: 60px;"><fmt:formatDate value="${order.ordertime }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
 								</th>
 							</tr>
 							<tr class="warning">
-								<th>图片</th>
-								<th>商品</th>
-								<th>价格</th>
-								<th>数量</th>
-								<th>小计</th>
+								<th>Photo</th>
+								<th>Dishes</th>
+								<th>Price</th>
+								<th>Number</th>
+								<th>Subtotal</th>
 							</tr>
 							<c:forEach items="${order.orderItems }" var="item">
 								<tr class="active">

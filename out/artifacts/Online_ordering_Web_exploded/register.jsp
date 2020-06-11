@@ -10,7 +10,7 @@
 
 <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
 
-<title>会员注册</title>
+<title>Member Registration</title>
 <script type="text/javascript">
 	//自定义validate校验规则(ajax校验用户名是否存在)
 	$.validator.addMethod(
@@ -107,24 +107,24 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8" style="background: #fff; padding: 40px 80px; margin: 30px; border: 7px solid #ccc;">
-				<div style="font-size: 150%">会员注册 USER REGISTER</div>
+				<div style="font-size: 150%">USER REGISTER</div>
 				<form id="registerForm" class="form-horizontal" style="margin-top: 5px;" action="${pageContext.request.contextPath }/register" method="post">
 					<div class="form-group">
-						<label for="username" class="col-sm-2 control-label">用户名</label>
+						<label for="username" class="col-sm-2 control-label">Username</label>
 						<div class="col-sm-6">
-							<input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名">
+							<input type="text" class="form-control" id="username" name="username" placeholder="Please input the username">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+						<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 						<div class="col-sm-6">
-							<input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
+							<input type="password" class="form-control" id="password" name="password" placeholder="Please input the password">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="confirmpwd" class="col-sm-2 control-label">确认密码</label>
+						<label for="confirmpwd" class="col-sm-2 control-label">Confirm Password</label>
 						<div class="col-sm-6">
-							<input type="password" class="form-control" id="confirmpwd" name="repassword" placeholder="请输入确认密码">
+							<input type="password" class="form-control" id="confirmpwd" name="repassword" placeholder="Please input the confiramtion password">
 						</div>
 					</div>
 					<div class="form-group">
@@ -134,32 +134,32 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="usercaption" class="col-sm-2 control-label">姓名</label>
+						<label for="usercaption" class="col-sm-2 control-label">Name</label>
 						<div class="col-sm-6">
-							<input type="text" class="form-control" id="usercaption" name="name" placeholder="请输入姓名">
+							<input type="text" class="form-control" id="usercaption" name="name" placeholder="Please input your name">
 						</div>
 					</div>
 					<div class="form-group opt">
-						<label for="inlineRadio1" class="col-sm-2 control-label">性别</label>
+						<label for="inlineRadio1" class="col-sm-2 control-label">Gender</label>
 						<div class="col-sm-6">
 							<label class="radio-inline">
-								<input type="radio" name="sex" id="sex1" value="male"> 男
+								<input type="radio" name="sex" id="sex1" value="male"> Male
 							</label>
 							<label class="radio-inline">
-								<input type="radio" name="sex" id="sex2" value="female"> 女
+								<input type="radio" name="sex" id="sex2" value="female"> Famle
 							</label>
-							<label class="error" for="sex" style="display: none;">您没有第三种选择</label>
+							<label class="error" for="sex" style="display: none;">You don't have a third choice</label>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="date" class="col-sm-2 control-label">出生日期</label>
+						<label for="date" class="col-sm-2 control-label">Date of Birth</label>
 						<div class="col-sm-6">
 							<input type="date" class="form-control" name="birthday">
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="date" class="col-sm-2 control-label">验证码</label>
+						<label for="date" class="col-sm-2 control-label">Verification Code</label>
 						<div class="col-sm-3">
 							<input type="text" class="form-control" name="checkImg">
 						</div>
