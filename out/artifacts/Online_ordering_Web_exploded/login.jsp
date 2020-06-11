@@ -45,21 +45,21 @@
 			</div>
 			<form class="form-horizontal" name="login" action="${pageContext.request.contextPath }/login" method="post">
 				<div class="form-group">
-					<label for="username" class="col-sm-2 control-label">用户名</label>
+					<label for="username" class="col-sm-2 control-label">Username</label>
 					<div class="col-sm-6">
-						<input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名" value="${saveUsername }">
+						<input type="text" class="form-control" id="username" name="username"value="${saveUsername }">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 					<div class="col-sm-6">
-						<input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
+						<input type="password" class="form-control" id="password" name="password" >
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Verification Code</label>
 					<div class="col-sm-3" style="width: 30%">
-						<input type="text" class="form-control" id="checkImg" name="checkImg" placeholder="请输入验证码">
+						<input type="text" class="form-control" id="checkImg" name="checkImg" >
 					</div>
 					<div class="col-sm-3">
 						<img onclick="changeImg(this)" style="max-width:150%; cursor: pointer" src="${pageContext.request.contextPath }/checkImgServlet" />
@@ -69,18 +69,18 @@
 					<div class="col-sm-offset-2 col-sm-10">
 						<div class="checkbox">
 							<label>
-								<input type="checkbox" name="autoLogin" value="autoLogin"> 自动登录
+								<input type="checkbox" name="autoLogin" value="autoLogin"> automatic login
 							</label>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							<label>
-								<input type="checkbox" name="saveUsername" value="saveUsername"> 记住用户名
+								<input type="checkbox" name="saveUsername" value="saveUsername"> remember username
 							</label>
 						</div>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
-						<input type="submit" width="100" value="登录" name="submit" class="mybutton">
+						<input type="submit" width="100" value="Login" name="submit" class="mybutton">
 					</div>
 					<span style="float: right;margin-right: 100px;font-size: 90%;">
 						<a href="register.jsp">No account yet？Click here to register</a>
