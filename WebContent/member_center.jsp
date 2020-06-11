@@ -122,7 +122,7 @@
 			$("input[value='${user.sex}']").attr("checked",true);
 		});
 	</script>
-	<!-- 引入footer.jsp -->
+
 	<jsp:include page="/footer.jsp"></jsp:include>
 </body>
 </html>

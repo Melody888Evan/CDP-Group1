@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>会员登录</title>
+<title>Member Login</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="css/login_style.css" type="text/css" />
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
@@ -18,15 +18,15 @@
 	$(function () {
 		$("form[name='login']").submit(function () {
 			if ($("#username").val()=="") {
-				$("#loginInfo").html("您还没有输入用户名");
+				$("#loginInfo").html("Please enter the username");
 				return false;
 			}
 			if ($("#password").val()=="") {
-				$("#loginInfo").html("您还没有输入密码");
+				$("#loginInfo").html("Please enter the password");
 				return false;
 			}
 			if ($("#checkImg").val()=="") {
-				$("#loginInfo").html("请输入验证码");
+				$("#loginInfo").html("Please enter the verification code");
 				return false;
 			}
 		});
@@ -39,7 +39,7 @@
 	<jsp:include page="/header.jsp"></jsp:include>
 	<div class="background">
 		<div class="loginDiv">
-			<font>会员登录</font>USER LOGIN
+			<font>Member Login</font>USER LOGIN
 			<div>
 				<span id="loginInfo" style="color: red;">${loginInfo }</span>
 			</div>
@@ -83,13 +83,12 @@
 						<input type="submit" width="100" value="登录" name="submit" class="mybutton">
 					</div>
 					<span style="float: right;margin-right: 100px;font-size: 90%;">
-						<a href="register.jsp">还没有账号？点此注册</a>
+						<a href="register.jsp">No account yet？Click here to register</a>
 					</span>
 				</div>
 			</form>
 		</div>
 	</div>
-	<!-- 引入footer.jsp -->
 	<jsp:include page="/footer.jsp"></jsp:include>
 
 </body>
