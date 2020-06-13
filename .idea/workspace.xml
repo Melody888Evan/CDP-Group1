@@ -27,10 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b31c47a-a0fa-443a-88f9-b65cecfd392a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/activeSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/activeSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/images/logo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering/Online_ordering.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering/Online_ordering.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/menu.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +180,7 @@
       <updated>1591554986468</updated>
       <workItem from="1591554990032" duration="2526000" />
       <workItem from="1591865894670" duration="14745000" />
+      <workItem from="1592012073510" duration="762000" />
     </task>
     <servers />
   </component>
@@ -197,6 +197,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591866652011">
