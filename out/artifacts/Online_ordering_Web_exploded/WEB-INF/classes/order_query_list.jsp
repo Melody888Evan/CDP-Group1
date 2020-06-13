@@ -8,15 +8,15 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<title>我的订单</title>
+	<title>My Orders</title>
 	<script type="text/javascript">
 		$(function () {
 			$("input[type='radio']").click(function () {
 				var value =  $("input[type='radio']:checked").val();
 				if (value=="ordertime") {
-					$("#radioSpan").replaceWith("<span id='radioSpan'>选择日期<input type='date' name='condition' /></span> ");
+					$("#radioSpan").replaceWith("<span id='radioSpan'>Select the date<input type='date' name='condition' /></span> ");
 				}else {
-					$("#radioSpan").replaceWith("<span id='radioSpan'>输入订单号<input type='text' name='condition'></span>");
+					$("#radioSpan").replaceWith("<span id='radioSpan'>Input the order num<input type='text' name='condition'></span>");
 				}
 			});
 			//如果未输入查询条件，表单不提交
@@ -32,19 +32,19 @@
 	<!-- 引入header.jsp -->
 	<jsp:include page="/header.jsp"></jsp:include>
 	<div class="container">
-		<a href="${pageContext.request.contextPath}/index">首页&nbsp;&nbsp;&gt;</a> 
-		<a href="${pageContext.request.contextPath}/myOrders">我的订单&nbsp;&nbsp;&gt;</a>
-		<a href="#">订单查询</a>
+		<a href="${pageContext.request.contextPath}/index">Home&nbsp;&nbsp;&gt;</a>
+		<a href="${pageContext.request.contextPath}/myOrders">My Orders&nbsp;&nbsp;&gt;</a>
+		<a href="#">Order Inquiry</a>
 		<div class="row">
 			<div style="margin: 0 auto; margin-top: 10px; width: 1100px;">
-				<strong style="font-size: 30px">订单查询</strong>
+				<strong style="font-size: 30px">Order Inquiry</strong>
 				<div style="margin-top: 10px;margin-bottom: 20px">
 					<form id="queryForm" action="${pageContext.request.contextPath }/queryOrder" method="post">
-						查询方式: 
-						<input type="radio" name="queryMethod" value="ordertime" checked="checked">订单日期 
-						<input type="radio" name="queryMethod" value="oid">订单号
+						Inquiry Mode:
+						<input type="radio" name="queryMethod" value="ordertime" checked="checked">Date of Order
+						<input type="radio" name="queryMethod" value="oid">Order Num
 						<br>
-						<span id="radioSpan">选择日期<input type="date" name="condition"></span> 
+						<span id="radioSpan">Select the date<input type="date" name="condition"></span>
 						<input type="submit" value="查询" class="mybutton">
 					</form>
 				</div>
@@ -53,18 +53,18 @@
 						<tbody>
 							<tr class="success">
 								<th colspan="5">
-									<span>订单编号:${order.oid }</span>
+									<span>Order Num:${order.oid }</span>
 									<span style="float: right;margin-right: 10px;">${order.state==1?"已付款":"未付款" }</span>
-									<span style="float: right;margin-right: 60px;">订单总额:&yen;${order.total_price }</span>
+									<span style="float: right;margin-right: 60px;">Total:$${order.total_price }</span>
 									<span style="float: right;margin-right: 60px;"><fmt:formatDate value="${order.ordertime }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
 								</th>
 							</tr>
 							<tr class="warning">
-								<th>图片</th>
-								<th>商品</th>
-								<th>价格</th>
-								<th>数量</th>
-								<th>小计</th>
+								<th>Photo</th>
+								<th>Dishes</th>
+								<th>Price</th>
+								<th>Number</th>
+								<th>Subtotal</th>
 							</tr>
 							<c:forEach items="${order.orderItems }" var="item">
 								<tr class="active">
@@ -72,7 +72,7 @@
 									<td width="30%"><a target="_blank">${item.menu.name }</a></td>
 									<td width="20%">${item.menu.price }</td>
 									<td width="10%">${item.count }</td>
-									<td width="15%"><span class="subtotal">￥${item.subtotal }</span></td>
+									<td width="15%"><span class="subtotal">$${item.subtotal }</span></td>
 								</tr>
 							</c:forEach>
 						</tbody>

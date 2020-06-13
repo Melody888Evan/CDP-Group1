@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>会员登录</title>
+<title>Member Login</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -70,8 +70,7 @@ body {
 		<div class="row">
 			<div
 				style="border: 1px solid #e4e4e4; width: 930px; margin-bottom: 10px; margin: 0 auto; padding: 10px; margin-bottom: 10px;">
-				<a href="${pageContext.request.contextPath}/index">首页&nbsp;&nbsp;&gt;</a> <a href="${pageContext.request.contextPath}/menuListByCid">美味菜单&nbsp;&nbsp;&gt;</a>
-				<a href="#">菜品详情</a>
+				<a href="#">Details of Dishes</a>
 			</div>
 
 			<div style="margin: 0 auto; width: 950px;">
@@ -87,18 +86,13 @@ body {
 					</div>
 					<div
 						style="border-bottom: 1px dotted #dddddd; width: 350px; margin: 10px 0 10px 0;">
-						<div>编号：${menu.mid }</div>
+						<div>Number：${menu.mid }</div>
 					</div>
 
 					<div style="margin: 10px 0 10px 0;">
-						价格: <strong style="color: #ef0101;">￥：${menu.price }元/份</strong><!--  参 考 价： -->
-						<%-- <del>￥${product.market_price }元/份</del> --%>
+						Price: <strong style="color: #ef0101;">$：${menu.price }</strong>
 					</div>
 
-					<div style="margin: 10px 0 10px 0;">
-						促销: <a target="_blank" title="限时抢购 (2018-07-30 ~ 2018-09-01)"
-							style="background-color: #f07373;">限时抢购</a>
-					</div>
 
 					<div
 						style="padding: 10px; border: 1px solid #e7dbb1; width: 330px; margin: 15px 0 10px 0;; background-color: #fffee6;">
@@ -106,55 +100,47 @@ body {
 
 						<div
 							style="border-bottom: 1px solid #faeac7; margin-top: 20px; padding-left: 10px;">
-							购买数量: <input id="buyNum" name="buyNum" value="1"
+							Purchase Quantity : <input id="buyNum" name="buyNum" value="1"
 								maxlength="4" size="10" type="text">
 						</div>
 
 						<div style="margin: 20px 0 10px 0;; text-align: center;">
 							<a href="javascript:void(0)" onclick="addCart()"> <input
 								class="mybutton"
-								value="加入购物车" type="button">
-							</a> &nbsp;收藏商品
+								value="add to shopping cart" type="button">
+							</a>
 						</div>
 					</div>
 					<div>
 						<c:if test="${empty cid }">
-							<a href="${pageContext.request.contextPath}/index">返回列表页面</a>
+							<a href="${pageContext.request.contextPath}/index">back</a>
 						</c:if>
 						
 						<c:if test="${!empty cid }">
-							<a href="${pageContext.request.contextPath}/menuListByCid?cid=${cid}&currentPage=${currentPage}">返回列表页面</a>
+							<a href="${pageContext.request.contextPath}/menuListByCid?cid=${cid}&currentPage=${currentPage}">back</a>
 						</c:if>
 					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
 			<div style="width: 950px; margin: 0 auto;">
-				<div
-					style="background-color: #f5f5f5; width: 930px; padding: 10px 10px; margin: 10px 0 10px 0;">
-					<strong>菜式详情</strong>
-				</div>
 
-				<div style="float: left;">
-					<img style="opacity: 1; width: 500px; "
-						src="${pageContext.request.contextPath}/${menu.image }">
-				</div>
-				<div style="float: left;">${menu.desc }</div>
+
 				<div style="background-color: #d3d3d3; width: 930px;">
 					<table class="table table-bordered">
 						<tbody>
 							<tr class="active">
-								<th><strong>评论</strong></th>
+								<th><strong>Comment</strong></th>
 							</tr>
 							<c:if test="${empty menu.commentList }">
 								<tr class="warning">
-									<th>暂无该菜肴评论信息 <a href="javacript:void(0)" onclick="showTextarea()">[发表评论]</a></th>
+									<th>No comment on this dish now<a href="javacript:void(0)" onclick="showTextarea()">[add a comment]</a></th>
 								</tr>
 								<tr id="commentTextarea" style="display: none">
 									<td>
 										<form method="post" id="commentForm">
 											<textarea name="content" id="content" style="width: 100%;height: 100px" maxlength="200" placeholder="少于200字符"></textarea>								
-											<a href="javascript:void(0)" onclick="retract()" >收起</a>
+											<a href="javascript:void(0)" onclick="retract()" >pack up</a>
 											<input type="submit" value="发表" class="mybutton" style="float: right;">
 										</form>
 									</td>
@@ -162,13 +148,13 @@ body {
 							</c:if>
 							<c:if test="${!empty menu.commentList }">
 								<tr style="background: white;">
-									<th>共 ${fn:length(menu.commentList)}条评论 <a href="javacript:void(0)" onclick="showTextarea()">[发表评论]</a></th>
+									<th> ${fn:length(menu.commentList)}comments in total <a href="javacript:void(0)" onclick="showTextarea()">[add a comment]</a></th>
 								</tr>
 								<tr id="commentTextarea" style="display: none">
 									<td>
 										<form method="post" id="commentForm">
 											<textarea name="content" id="content" style="width: 100%;height: 100px" maxlength="200" placeholder="少于200字符"></textarea>								
-											<a href="javascript:void(0)" onclick="retract()" >收起</a>
+											<a href="javascript:void(0)" onclick="retract()" >pack up</a>
 											<input type="submit" value="发表" class="mybutton" style="float: right;">
 										</form>
 									</td>

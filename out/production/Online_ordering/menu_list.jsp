@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>网上订餐系统</title>
+	<title>Online Order System</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -54,12 +54,12 @@
 					<c:forEach items="${pageBean.list }" var="menu">
 						<div class="gallery-grid">
 							<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}&cid=${cid}&currentPage=${pageBean.currentPage}">
-								<img src="${pageContext.request.contextPath }/${menu.image}" alt=""> <span>&yen;${menu.price}</span>
+								<img src="${pageContext.request.contextPath }/${menu.image}" alt=""> <span>$${menu.price}</span>
 							</a>
 							<h4>${menu.name}</h4>
-							<span style="color: red;">&yen;${menu.price}</span>
+							<span style="color: red;">$${menu.price}</span>
 							<div class="gallery-button" >
-								<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}&cid=${cid}&currentPage=${pageBean.currentPage}">下单</a>
+								<a href="${pageContext.request.contextPath }/menuInfo?mid=${menu.mid}&cid=${cid}&currentPage=${pageBean.currentPage}">Order</a>
 							</div>
 						</div>
 					</c:forEach>

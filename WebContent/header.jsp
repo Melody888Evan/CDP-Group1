@@ -50,27 +50,27 @@
 					<ul>
 						<c:if test="${empty user }">
 							<li>
-								<a href="login.jsp">登录</a>
+								<a href="login.jsp">Log In</a>
 							</li>
 							<span style="color: white;">丨</span>
 							<li>
-								<a href="register.jsp">注册</a>
+								<a href="register.jsp">Sign In</a>
 							</li>
 							<span style="color: white;">丨</span>
 						</c:if>
 						<c:if test="${!empty user }">
 							<li>
-								<a href="member_center.jsp" style="color: #b6af56;">欢迎您,${user.username }</a>
-								<span style="color: #ad9f9f;font-size: 80%">&nbsp;当前积分:${user.point }</span>
+								<a href="member_center.jsp" style="color: #b6af56;">Welcome,${user.username }</a>
+								<span style="color: #ad9f9f;font-size: 80%">&nbsp;current integral:${user.point }</span>
 							</li>
 							<span style="color: white;">丨</span>
 							<li>
-								<a href="javascript:void(0)" onclick="exist()">退出</a>
+								<a href="javascript:void(0)" onclick="exist()">Log Out</a>
 							</li>
 							<span style="color: white;">丨</span>
 						</c:if>
 						<li>
-							<a href="${pageContext.request.contextPath }/myOrders">我的订单</a>
+							<a href="${pageContext.request.contextPath }/myOrders">My Order</a>
 						</li>
 					</ul>
 				</div>
@@ -81,30 +81,25 @@
 				<div class="top-nav-left">
 					<ul id="topbar">
 						<li id="1" class="active">
-							<a href="${pageContext.request.contextPath }/index">首页</a>
+							<a href="${pageContext.request.contextPath }/index">Home</a>
 						</li>
-						<li id="2">
-							<a href="${pageContext.request.contextPath }/about">简介</a>
-						</li>
+
 						<li id="3" onclick="a()">
-							<a href="${pageContext.request.contextPath }/menuListByCid">美味菜单</a>
+							<a href="${pageContext.request.contextPath }/menuListByCid">Menu</a>
 						</li>
 						<li id="4">
-							<a href="cart.jsp">购物车</a>
+							<a href="cart.jsp">Selected</a>
 						</li>
 						<li id="5">
-							<a href="${pageContext.request.contextPath }/member_center.jsp">会员中心</a>
+							<a href="${pageContext.request.contextPath }/member_center.jsp">Member Center</a>
 						</li>
-						<li id="6">
-							<a href="advice.jsp">我要建议</a>
-						</li>
+
 						<div class="clear"></div>
 					</ul>
 				</div>
 				<div class="top-nav-right">
 					<form method="post" action="${pageContext.request.contextPath}/searchMenu" id="searchForm">
-						<!-- <input type="text" placeholder="想吃什么，直接搜" style="width: 260px"> -->
-						<input type="text" list="menus" name="menuName" placeholder="想吃什么，直接搜" style="width: 260px" oninput="searchWord(this)">
+						<input type="text" list="menus" name="menuName" placeholder="Welcome! Please Search" style="width: 260px" oninput="searchWord(this)">
 						<datalist id="menus">
 							<!--ajax动态填充-->
 						</datalist>
@@ -120,7 +115,7 @@
 	<script>
 		//退出确认
 		function exist() {
-			if (confirm("确认要退出吗？")) {
+			if (confirm("Confirm exit？")) {
 				location.href = "${pageContext.request.contextPath}/exist";
 			}
 		}

@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>网上订餐系统</title>
+	<title>Online Order System</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -13,13 +13,13 @@
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		function delProFromCart(mid) {
-			if (confirm("确认要从购物车中删除该商品吗？")) {
+			if (confirm("Are you sure to remove this item from your shopping cart？")) {
 				location.href = "${pageContext.request.contextPath}/delMenuFromCart?mid="
 						+ mid;
 			}
 		}
 		function clearCart() {
-			if (confirm("确认要清空购物车吗？")) {
+			if (confirm("Are you sure to empty the shopping cart？")) {
 				location.href = "${pageContext.request.contextPath}/clearCart";
 			}
 		}
@@ -54,16 +54,16 @@
 			<div class="container">
 				<div class="row">
 					<div style="margin: 0 auto; margin-top: 25px; width: 950px;">
-						<strong style="font-size: 30px; margin: 5px 0;">购物车详情</strong>
+						<strong style="font-size: 30px; margin: 5px 0;">Cart Details</strong>
 						<table class="table table-bordered">
 							<tbody>
 								<tr class="warning">
-									<th>图片</th>
-									<th>商品</th>
-									<th>价格</th>
-									<th>数量</th>
-									<th>小计</th>
-									<th>操作</th>
+									<th>Photo</th>
+									<th>Dishes</th>
+									<th>Price</th>
+									<th>Number</th>
+									<th>Subtotal</th>
+									<th>Operation</th>
 								</tr>
 
 								<c:forEach items="${cart.cartItems }" var="entry">
@@ -75,7 +75,7 @@
 										<td width="20%">${entry.value.menu.price }</td>
 										<td width="10%"><span>${entry.value.buyNum }</span></td>
 										<td width="15%"><span class="subtotal">￥${entry.value.subTotal }</span></td>
-										<td><a href="javascript:;" onclick="delProFromCart('${entry.value.menu.mid}')" class="delete">删除</a></td>
+										<td><a href="javascript:;" onclick="delProFromCart('${entry.value.menu.mid}')" class="delete">delete</a></td>
 									</tr>
 								</c:forEach>
 
@@ -86,14 +86,13 @@
 
 				<div style="margin-right: 130px;">
 					<div style="text-align: right;">
-						<a href="${pageContext.request.contextPath}/menuListByCid" style="color: #ff6600;"> 返回继续购买&nbsp;&nbsp; </a>
-						 购买后赠送积分: <em style="color: #ff6600;">${cart.totalPrice }</em>
-						&nbsp; 商品金额: <strong style="color: #ff6600;">￥${cart.totalPrice }元</strong>
+						<a href="${pageContext.request.contextPath}/menuListByCid" style="color: #ff6600;"> Back&nbsp;&nbsp; </a>
+
 					</div>
 					<div style="text-align: right; margin-top: 10px; margin-bottom: 10px;">
-						<a href="javascript:;" id="clear" class="clear" style="color: #19929f;" onclick="clearCart()">清空购物车</a>
+						<a href="javascript:;" id="clear" class="clear" style="color: #19929f;" onclick="clearCart()">Empty the Cart</a>
 						<a href="${pageContext.request.contextPath}/submitCart">
-							<input type="submit" width="100" value="去付款" name="submit" class="mybutton">
+							<input type="submit" width="100" value="Pay" name="submit" class="mybutton">
 						</a>
 					</div>
 				</div>
@@ -104,8 +103,8 @@
 		<c:if test="${empty cart.cartItems }">
 			<div class="container">
 				<img src="${pageContext.request.contextPath}/img/cart-empty.png" style="float: left;margin-top: 60px;">
-				<h2 style="margin-left: 12cm;margin-top: 130px;font-size: 170%">您的购物车还是空的！</h2>
-				<span style="margin-left: 260px;"><a href="${pageContext.request.contextPath}/menuListByCid">去下单购买</a></span>
+				<h2 style="margin-left: 12cm;margin-top: 130px;font-size: 170%">Your shopping cart is empty！</h2>
+				<span style="margin-left: 260px;"><a href="${pageContext.request.contextPath}/menuListByCid">Go to order</a></span>
 			</div>
 		</c:if>
 	</div>

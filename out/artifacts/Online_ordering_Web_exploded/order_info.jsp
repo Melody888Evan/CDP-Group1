@@ -8,7 +8,7 @@
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
-	<title>订单信息</title>
+	<title>Order Info</title>
 	<style type="text/css">
 	.error {
 		font-size: 90%;
@@ -22,26 +22,26 @@
 	<div class="container">
 		<div class="row">
 			<div style="margin: 0 auto; margin-top: 10px; width: 950px;">
-				<strong>订单详情</strong>
+				<strong>Order Details</strong>
 				<table class="table table-bordered">
 					<tbody>
 						<tr class="warning">
 							<th colspan="5">订单编号:${order.oid }</th>
 						</tr>
 						<tr class="warning">
-							<th>图片</th>
-							<th>商品</th>
-							<th>价格</th>
-							<th>数量</th>
-							<th>小计</th>
+							<th>Photo</th>
+							<th>Dishes</th>
+							<th>Price</th>
+							<th>Number</th>
+							<th>Subtotal</th>
 						</tr>
 						<c:forEach items="${order.orderItems }" var="orderItem">
 							<tr class="active">
 								<td width="60" width="40%"><input type="hidden" name="id" value="22"> <img src="${pageContext.request.contextPath}/${orderItem.menu.image}" height="60"></td>
 								<td width="30%"><a target="_blank"> ${orderItem.menu.name}</a></td>
-								<td width="20%">￥ ${orderItem.menu.price}</td>
+								<td width="20%">$ ${orderItem.menu.price}</td>
 								<td width="10%">${orderItem.count}</td>
-								<td width="15%"><span class="subtotal">￥${orderItem.subtotal}</span></td>
+								<td width="15%"><span class="subtotal">$${orderItem.subtotal}</span></td>
 							</tr>
 						</c:forEach>
 					</tbody>
@@ -49,7 +49,7 @@
 			</div>
 
 			<div style="text-align: right; margin-right: 120px;">
-				总计: <strong style="color: #ff6600;">￥${order.total_price}元</strong>
+				总计: <strong style="color: #ff6600;">$${order.total_price}</strong>
 			</div>
 
 		</div>
@@ -61,21 +61,21 @@
 				<input type="hidden" name="oid" value="${order.oid }">
 				<!--传递oid  -->
 				<div class="form-group">
-					<label for="username" class="col-sm-1 control-label">地址</label>
+					<label for="username" class="col-sm-1 control-label">Address</label>
 					<div class="col-sm-5">
-						<input type="text" class="form-control" id="username" name="address" placeholder="请输入收货地址">
+						<input type="text" class="form-control" id="username" name="address" placeholder="Please input your address">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="inputPassword3" class="col-sm-1 control-label">收货人</label>
+					<label for="inputPassword3" class="col-sm-1 control-label">Consignee</label>
 					<div class="col-sm-5">
-						<input type="text" class="form-control" id="input3" name="name" placeholder="请输收货人">
+						<input type="text" class="form-control" id="input3" name="name" placeholder="Please input the consignee">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="confirmpwd" class="col-sm-1 control-label">电话</label>
+					<label for="confirmpwd" class="col-sm-1 control-label">Phone</label>
 					<div class="col-sm-5">
-						<input type="text" class="form-control" id="confirmpwd" name="telephone" placeholder="请输入联系方式">
+						<input type="text" class="form-control" id="confirmpwd" name="telephone" placeholder="Please input your phone number">
 					</div>
 				</div>
 
@@ -83,11 +83,11 @@
 				<hr />
 
 				<div style="margin-top: 5px;">
-					<strong>支付方式：</strong>
+					<strong>Modes of Payment：</strong>
 					<p>
 						<br />
-						<input type="radio" name="pay" value="weixin" checked="checked" />微信支付 <img src="./img/weixin.jpg" align="middle" style="width: 100px"/>&nbsp;&nbsp;&nbsp;&nbsp; 
-						<input type="radio" name="pay" value="zfb" />支付宝 <img src="./img/zfb.jpg" align="middle" style="width: 100px"/>&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="pay" value="weixin" checked="checked" />Wechat <img src="./img/weixin.jpg" align="middle" style="width: 100px"/>&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="pay" value="zfb" />Ali-pay <img src="./img/zfb.jpg" align="middle" style="width: 100px"/>&nbsp;&nbsp;&nbsp;&nbsp;
 					</p>
 					<hr />
 					<p style="text-align: right; margin-right: 150px;">
