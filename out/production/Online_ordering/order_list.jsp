@@ -29,7 +29,7 @@
 							<tr class="success">
 								<th colspan="5">
 									<span>Order Num:${order.oid }</span>
-									<span style="float: right;margin-right: 10px;">${order.state==1?"已付款":"未付款" }</span>
+									<span style="float: right;margin-right: 10px;">${order.state==1?"paid":"unpaid" }</span>
 									<span style="float: right;margin-right: 60px;">Total:$${order.total_price }</span>
 									<span style="float: right;margin-right: 60px;"><fmt:formatDate value="${order.ordertime }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
 								</th>

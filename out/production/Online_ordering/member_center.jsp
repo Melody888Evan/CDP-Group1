@@ -48,32 +48,32 @@
 	</script>
 </head>
 <body>
-	<!-- 引入header.jsp -->
+
 	<jsp:include page="/header.jsp"></jsp:include>
 
 	<div class="content">
-		<div style="font-size: 30px;margin-left: 30px;padding-top: 25px">会员中心</div>
+		<div style="font-size: 30px;margin-left: 30px;padding-top: 25px">Member Center</div>
 		<div class="field">
 			<div>
-				头像：
+				photo：
 				<img src="${pageContext.request.contextPath}/${user.image}" style="width: 50px">
 			</div>
-			<div>用户名：${user.username }</div>
-			<div>拥有积分：<span style="color: red;">${user.point }</span></div>
-			<div>真实姓名：${user.name }</div>
-			<div>绑定邮箱：${user.email }</div>
-			<div>手机号码：${user.telephone }</div>
-			<div>生日：${user.birthday }</div>
-			<div>性别：${user.sex }</div>
-			<div>年龄：${user.age }</div>
+			<div>username：${user.username }</div>
+			<div>integral：<span style="color: red;">${user.point }</span></div>
+			<div>Name：${user.name }</div>
+			<div>Email：${user.email }</div>
+			<div>Phone：${user.telephone }</div>
+			<div>Date of Birth：${user.birthday }</div>
+			<div>Gender：${user.sex }</div>
+			<div>Age：${user.age }</div>
 			<div id="edit">
-				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 450px;">编辑信息</a>
+				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 450px;">Edit</a>
 			</div>
 		</div>
 		<div class="inputField">
 			<form id="form1" action="${pageContext.request.contextPath}/editUserInfo" method="post" enctype="multipart/form-data">
 				<div>
-					<label>头像：</label>
+					<label>photo：</label>
 					<img src="${pageContext.request.contextPath}/${user.image }" style="width: 50px"> 
 					<input type="file" id="fileupload" name="image">
 				</div>
@@ -81,38 +81,38 @@
 					<input type="hidden" value="${user.uid }" name="uid">
 				</div>
 				<div>
-					<label>用户名：</label>
+					<label>Username：</label>
 					<input type="text" value="${user.username }" name="username">
 				</div>
 				<div>
-					<label>真实姓名：</label>
+					<label>Name：</label>
 					<input type="text" value="${user.name }" name="name">
 				</div>
 				<div>
-					<label>绑定邮箱：</label>
+					<label>Email：</label>
 					<input type="text" value="${user.email }" name="email">
 				</div>
 				<div>
-					<label>手机号码：</label>
+					<label>Phone：</label>
 					<input type="text" value="${user.telephone }" name="telephone">
 				</div>
 				<div>
-					<label>生日：</label>
+					<label>Date of Birth：</label>
 					<input type="date" value="${user.birthday }" name="birthday">
 				</div>
 				<div>
-					<label>性别：</label>
-					<input type="radio" name="sex" value="female">女
-					<input type="radio" name="sex" value="male">男
+					<label>Gender：</label>
+					<input type="radio" name="sex" value="female">Female
+					<input type="radio" name="sex" value="male">Male
 				</div>
 				<div>
-					<label>年龄：</label>
+					<label>Age：</label>
 					<input type="text" value="${user.age }" name="age">
 				</div>
 			</form>
 			<div>
-				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 400px;" id="save">保存</a>
-				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 30px;" id="canel">返回</a>
+				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 400px;" id="save">Save</a>
+				<a href="javascript:void(0)" class="mybutton" style="text-decoration: none; margin-left: 30px;" id="canel">Back</a>
 			</div>
 		</div>
 

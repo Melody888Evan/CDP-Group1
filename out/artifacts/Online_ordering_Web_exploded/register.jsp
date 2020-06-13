@@ -63,24 +63,24 @@
 			},
 			messages : {
 				"username" : {
-					"required" : "用户名不能为空",
-					"isExist" : "用户名已存在"
+					"required" : "username can not be empty",
+					"isExist" : "username already exist"
 				},
 				"password" : {
-					"required" : "密码不能为空",
-					"rangelength" : "密码长度6-16位"
+					"required" : "password can not be empty",
+					"rangelength" : "password length 6-16"
 				},
 				"repassword" : {
-					"required" : "密码不能为空",
-					"rangelength" : "密码长度6-16位",
-					"equalTo" : "两次输入的密码不一致"
+					"required" : "password can not be empty",
+					"rangelength" : "password length 6-16",
+					"equalTo" : "two passwords do not match"
 				},
 				"email" : {
-					"required" : "邮箱不能为空",
-					"email" : "邮箱格式不正确"
+					"required" : "email can not be empty",
+					"email" : "email format is wrong"
 				},
 				"sex" : {
-					"required" : "您没有第三种选择"
+					"required" : "you don not have third choice"
 				}
 
 			}
@@ -171,7 +171,7 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<input type="submit" width="100" value="注册" name="submit" class="mybutton">
+							<input type="submit" width="100" value="register" name="submit" class="mybutton">
 						</div>
 					</div>
 				</form>

@@ -48,10 +48,10 @@
 					    contentType: false,
 						dataType : "json",
 						success : function(data) {
-							alert("修改成功！");
+							alert("Change Successfully！");
 						},
 						error:function(err){
-							alert("修改失败！");
+							alert("Change Failed！");
 						}
 					});
 	 				
@@ -70,14 +70,14 @@
 				<tr>
 					<td class="ta_01" align="center" bgColor="#afd1f3" colSpan="4"
 						height="26">
-						<strong><STRONG>编辑商品</STRONG>
+						<strong><STRONG>Edit the Good </STRONG>
 						</strong>
 					</td>
 				</tr>
 
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						商品名称：
+						Name：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
 						<input type="text" name="name" value="" id="name" class="bg"/>
@@ -85,19 +85,19 @@
 				</tr>
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						是否热门：
+						Hot?：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
 						
 						<select name="is_hot" id="is_hot">
-							<option value="1">是</option>
-							<option value="0">否</option>
+							<option value="1">Yes</option>
+							<option value="0">No</option>
 						</select>
 					</td>	
 				</tr>
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						价格：
+						Price：
 					</td>
 					<td class="ta_01" bgColor="#ffffff">
 						<input type="text" name="price" value="" id="price" class="bg"/>
@@ -105,7 +105,7 @@
 				</tr>
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						商品图片：
+						Photo：
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
 						<input type="file" name="upload" />
@@ -113,7 +113,7 @@
 				</tr>
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						所属分类：
+						Category：
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
 						<select name="cid" id="cid">
@@ -123,7 +123,7 @@
 				</tr>
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						商品描述：
+						Description：
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
 						<textarea name="desc" id="desc" rows="5" cols="30"></textarea>
@@ -135,12 +135,12 @@
 		<!-- 				<button type="submit" id="submit" value="确定" class="button_ok">
 							&#30830;&#23450;
 						</button> -->
-						<input type="button" id="submit" value="确定" class="button_ok">
+						<input type="button" id="submit" value="confirm" class="button_ok">
 						<FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
-						<button type="reset" value="重置" class="button_cancel">&#37325;&#32622;</button>
+						<button type="reset" value="Reset" class="button_cancel">&#37325;&#32622;</button>
 
 						<FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
-						<INPUT class="button_ok" type="button" onclick="history.go(-1)" value="返回"/>
+						<INPUT class="button_ok" type="button" onclick="history.go(-1)" value="back"/>
 						<span id="Label1"></span>
 					</td>
 				</tr>
