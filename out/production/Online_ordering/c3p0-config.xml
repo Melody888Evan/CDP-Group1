@@ -3,9 +3,9 @@
 
   <default-config>
     <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
-	<property name="jdbcUrl">jdbc:mysql://localhost:3306/meal_order?useSSL=false&amp;serverTimezone=GMT%2B8&amp;characterEncoding=UTF8&amp;autoReconnect=true</property>
+	<property name="jdbcUrl">jdbc:mysql://54.90.57.206:3306/online_order?useSSL=false&amp;serverTimezone=GMT&amp;characterEncoding=UTF8&amp;autoReconnect=true</property>
 	<property name="user">root</property>
-	<property name="password">zyj632129</property>
+	<property name="password">326115708</property>
 	<property name="initialPoolSize">5</property>
 	<property name="maxPoolSize">20</property>
   </default-config>
@@ -14,7 +14,7 @@
     <property name="driverClass">com.mysql.jdbc.Driver</property>
 	<property name="jdbcUrl">jdbc:mysql:///meal_order</property>
 	<property name="user">root</property>
-	<property name="password">zyj632129</property>
+	<property name="password">326115708</property>
   </named-config>
   
 

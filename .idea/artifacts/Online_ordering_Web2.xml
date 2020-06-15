@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Online_ordering:Web2">
+    <output-path>$PROJECT_DIR$/../..</output-path>
+    <root id="archive" name="Online_ordering_Web.war">
+      <element id="artifact" artifact-name="Online_ordering:Web exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/WebContent" />
+    </root>
+  </artifact>
+</component>
