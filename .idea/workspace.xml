@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="Online_ordering" />
       <artifact name="Online_ordering:Web exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b31c47a-a0fa-443a-88f9-b65cecfd392a" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/Online_ordering_Web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/Online_ordering_Web2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Online_ordering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Online_ordering.iml" afterDir="false" />
@@ -14,11 +34,75 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/c3p0-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/menu/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/menu/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/menu/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/menu/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/menu/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/menu/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/member_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/member_center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/order_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/order_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering/Online_ordering.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering/Online_ordering.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/menu/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/member_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/member_center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/order_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/order_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/WEB-INF/classes/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/menu/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/member_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/member_center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/order_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/order_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Online_ordering_Web_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/menu/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/member_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/member_center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/order_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/order_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/order_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/order_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Online_ordering/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Online_ordering/register.jsp" afterDir="false" />
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
     </list>
-    <ignored path="$PROJECT_DIR$/out/production/Online_ordering/" />
-    <ignored path="$PROJECT_DIR$/out/test/Online_ordering/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +122,7 @@
     <expand />
     <select />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
@@ -105,6 +190,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -112,6 +202,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+<<<<<<< HEAD
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -150,6 +241,8 @@
       </pane>
     </panes>
   </component>
+=======
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -164,6 +257,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -177,46 +271,30 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
+=======
+  <component name="RunManager" selected="Tomcat Server.localaws">
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -230,11 +308,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_meal-order-master" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="57160" />
       </RunnerSettings>
@@ -283,7 +361,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Online_ordering:Web exploded" />
         </option>
@@ -346,13 +425,14 @@
           <host-id>4d84956d-a5ce-4642-b509-7f6a370262b0</host-id>
         </data>
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="52017" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Online_ordering:Web exploded" />
         </option>
@@ -380,6 +460,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="14278000" />
   </component>
@@ -419,12 +500,15 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+=======
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/meal_order.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,6 +764,65 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592048564742">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1592048564742" />
+    <state width="1134" height="83" key="GridCell.Tab.0.bottom" timestamp="1592042352854">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592042352854" />
+    <state width="1134" height="83" key="GridCell.Tab.0.center" timestamp="1592042352854">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592042352854" />
+    <state width="1134" height="83" key="GridCell.Tab.0.left" timestamp="1592042352854">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592042352854" />
+    <state width="1134" height="83" key="GridCell.Tab.0.right" timestamp="1592042352854">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592042352854" />
+    <state width="1134" height="83" key="GridCell.Tab.1.bottom" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.1.center" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.1.left" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.1.right" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.2.bottom" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.2.center" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.2.left" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state width="1134" height="83" key="GridCell.Tab.2.right" timestamp="1592042352764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1134" height="83" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1592042352764" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592039984781">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592039984781" />
+>>>>>>> 016c0b1a9cfac432e1daf424d80aa3596c6f34d3
   </component>
   <component name="masterDetails">
     <states>
