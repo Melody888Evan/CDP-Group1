@@ -10,10 +10,10 @@
 	<script language="javascript" src="${pageContext.request.contextPath}/js/public.js"></script>
 	<script type="text/javascript">
 		function addProduct(){
-			window.location.href = "add.jsp";
+			window.location.href = "/add.jsp";
 		}
 		function delMenu(mid) {
-			var isDel = confirm("您确认要删除该商品吗？");
+			var isDel = confirm("Are you sure to delete that good？");
 			if(isDel) {
 				location.href = "${pageContext.request.contextPath}/adminDelMenu?mid=" + mid;
 			}
@@ -27,12 +27,12 @@
 			bgColor="#f5fafe" border="0">
 			<TBODY>
 				<tr>
-					<td class="ta_01" align="center" bgColor="#afd1f3"><strong>商品列表</strong>
+					<td class="ta_01" align="center" bgColor="#afd1f3"><strong>List</strong>
 					</TD>
 				</tr>
 				<tr>
 					<td class="ta_01" align="right">
-						<button type="button" id="add" name="add" value="添加"
+						<button type="button" id="add" name="add" value="add"
 							class="button_add" onclick="addProduct()">
 							&#28155;&#21152;</button>
 
@@ -46,13 +46,13 @@
 							<tr
 								style="FONT-WEIGHT: bold; FONT-SIZE: 12pt; HEIGHT: 25px; BACKGROUND-COLOR: #afd1f3">
 
-								<td align="center" width="18%">序号</td>
-								<td align="center" width="17%">商品图片</td>
-								<td align="center" width="17%">商品名称</td>
-								<td align="center" width="17%">商品价格</td>
-								<td align="center" width="17%">是否热门</td>
-								<td width="7%" align="center">编辑</td>
-								<td width="7%" align="center">删除</td>
+								<td align="center" width="18%">Num</td>
+								<td align="center" width="17%">Photo</td>
+								<td align="center" width="17%">Name</td>
+								<td align="center" width="17%">Price</td>
+								<td align="center" width="17%">IsHot</td>
+								<td width="7%" align="center">Edit</td>
+								<td width="7%" align="center">Delete</td>
 							</tr>
 							<c:forEach items="${menuList }" var="menu" varStatus="vs">
 								<tr onmouseover="this.style.backgroundColor = 'white'" onmouseout="this.style.backgroundColor = '#F5FAFE';">
@@ -61,7 +61,7 @@
 									<img width="80" src="${ pageContext.request.contextPath }/${menu.image }"></td>
 									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="17%">${menu.name }</td>
 									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="17%">${menu.price }</td>
-									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="17%">${menu.is_hot=="1"?"是":"否" }</td>
+									<td style="CURSOR: hand; HEIGHT: 22px" align="center" width="17%">${menu.is_hot=="1"?"Yes":"No" }</td>
 									<td align="center" style="HEIGHT: 22px">
 										<a href="${pageContext.request.contextPath}/admin/menu/edit.jsp?mid=${menu.mid}">
 											<img src="${pageContext.request.contextPath}/images/i_edit.gif" border="0" style="CURSOR: hand">

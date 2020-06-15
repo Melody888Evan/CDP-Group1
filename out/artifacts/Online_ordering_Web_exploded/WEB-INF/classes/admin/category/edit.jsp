@@ -11,7 +11,7 @@
 			$(function () {
 				$("#submit").click(function () {
 					if ($("#name").val()=='') {
-						alert("内容不能为空！")
+						alert("It's empty！")
 					}else {
 						$.ajax({
 							type: "post",
@@ -21,10 +21,10 @@
 						    data: $("#form1").serialize(),
 							dataType : "json",
 							success : function(data) {
-								alert("修改成功！");
+								alert("Edit successfully！");
 							},
 							error:function(err){
-								alert("修改失败！");
+								alert("Edit Failed！");
 							}
 						});
 					}
@@ -41,14 +41,14 @@
 				<tr>
 					<td class="ta_01" align="center" bgColor="#afd1f3" colSpan="4"
 						height="26">
-						<strong><STRONG>编辑分类</STRONG>
+						<strong><STRONG>Edit Category</STRONG>
 						</strong>
 					</td>
 				</tr>
 
 				<tr>
 					<td width="18%" align="center" bgColor="#f5fafe" class="ta_01">
-						分类名称：
+						Category Name：
 					</td>
 					<td class="ta_01" bgColor="#ffffff" colspan="3">
 						<input type="text" name="name" value="${param.name }" id="name" class="bg"/>
@@ -57,9 +57,9 @@
 			
 				<tr>
 				<td class="ta_01" style="WIDTH: 100%" align="center" bgColor="#f5fafe" colSpan="4">
-					<input type="button" value="确定" class="button_ok" id="submit"> <FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
-					<button type="reset" value="重置" class="button_cancel">&#37325;&#32622;</button> <FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT> 
-					<INPUT class="button_ok" type="button" onclick="history.go(-1)" value="返回" /> <span id="Label1"></span>
+					<input type="button" value="confirm" class="button_ok" id="submit"> <FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
+					<button type="reset" value="Reset" class="button_cancel">&#37325;&#32622;</button> <FONT face="宋体">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
+					<INPUT class="button_ok" type="button" onclick="history.go(-1)" value="back" /> <span id="Label1"></span>
 				</td>
 			</tr>
 			</table>

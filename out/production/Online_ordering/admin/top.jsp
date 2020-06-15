@@ -36,7 +36,7 @@ TH {
 
 			<%-- 	<td width="100%" background="${pageContext.request.contextPath}/images/top_100.jpg">
 				</td> --%>
-				<td align="center" style="font-size: 30px">网上订餐后台管理系统</td>
+				<td align="center" style="font-size: 30px">Online Order Management System</td>
 			</tr>
 		</table>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -47,27 +47,7 @@ TH {
 							<td width="85%" align="left">
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							</td>
-							<%-- <td width="15%">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td width="16"
-											background="${pageContext.request.contextPath}/images/mis_05b.jpg">
-											<img
-												src="${pageContext.request.contextPath}/images/mis_05a.jpg"
-												width="6" height="18">
-										</td>
-										<td width="155" valign="bottom"
-											background="${pageContext.request.contextPath}/images/mis_05b.jpg">
-											用户名：
-											<font color="blue">zhangsan</font>
-										</td>
-										<td width="10" align="right"
-											background="${pageContext.request.contextPath}/images/mis_05b.jpg">
-											<img src="${pageContext.request.contextPath}/images/mis_05c.jpg" width="6" height="18">
-										</td>
-									</tr>
-								</table>
-							</td> --%>
+
 							<td align="right" width="5%">
 							</td>
 						</tr>

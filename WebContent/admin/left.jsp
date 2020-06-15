@@ -18,17 +18,17 @@
     <td>
 <div class="dtree">
 
-	<a href="javascript: d.openAll();">展开所有</a> | <a href="javascript: d.closeAll();">关闭所有</a>
+	<a href="javascript: d.openAll();">Expand All</a> | <a href="javascript: d.closeAll();">Close All</a>
 	
 	<script type="text/javascript" src="${pageContext.request.contextPath}/js/dtree.js"></script>
 	<script type="text/javascript">
 	
 		d = new dTree('d');
-		d.add('01',-1,'系统菜单树');
-		d.add('0102','01','分类管理','','','mainFrame');
-		d.add('010201','0102','分类管理','${pageContext.request.contextPath}/adminCategoryList','','mainFrame');
-		d.add('0104','01','商品管理');
-		d.add('010401','0104','商品管理','${pageContext.request.contextPath}/adminMenuList','','mainFrame');
+		d.add('01',-1,'System Menu');
+		d.add('0102','01',' Classification','','','mainFrame');
+		d.add('010201','0102','Classification','${pageContext.request.contextPath}/adminCategoryList','','mainFrame');
+		d.add('0104','01','Good');
+		d.add('010401','0104','Good','${pageContext.request.contextPath}/adminMenuList','','mainFrame');
 		document.write(d);
 		
 	</script>

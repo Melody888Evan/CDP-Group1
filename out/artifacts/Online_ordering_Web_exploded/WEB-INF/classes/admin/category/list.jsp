@@ -10,10 +10,10 @@
 		<script language="javascript" src="${pageContext.request.contextPath}/js/public.js"></script>
 		<script type="text/javascript">
 			function addCategory(){
-				window.location.href = "add.jsp";
+				window.location.href = "/add.jsp";
 			}
 			function delCategory(cid) {
-				var isDel = confirm("您确认要删除该分类吗？");
+				var isDel = confirm("Are you sure to delete the category？");
 				if(isDel) {
 					location.href = "${pageContext.request.contextPath}/adminDelCategory?cid=" + cid;
 				}
@@ -26,12 +26,12 @@
 		bgColor="#f5fafe" border="0">
 		<TBODY>
 			<tr>
-				<td class="ta_01" align="center" bgColor="#afd1f3"><strong>分类列表</strong>
+				<td class="ta_01" align="center" bgColor="#afd1f3"><strong>Category List</strong>
 				</TD>
 			</tr>
 			<tr>
 				<td class="ta_01" align="right">
-					<button type="button" id="add" name="add" value="添加"
+					<button type="button" id="add" name="add" value="Add"
 						class="button_add" onclick="addCategory()">
 						&#28155;&#21152;</button>
 
@@ -45,10 +45,10 @@
 						<tr
 							style="FONT-WEIGHT: bold; FONT-SIZE: 12pt; HEIGHT: 25px; BACKGROUND-COLOR: #afd1f3">
 
-							<td align="center" width="18%">序号</td>
-							<td align="center" width="17%">分类名称</td>
-							<td width="7%" align="center">编辑</td>
-							<td width="7%" align="center">删除</td>
+							<td align="center" width="18%">Num</td>
+							<td align="center" width="17%">Category</td>
+							<td width="7%" align="center">Edit</td>
+							<td width="7%" align="center">Delete</td>
 						</tr>
 						<c:forEach items="${categoryList }" var="category" varStatus="vs">
 							<tr onmouseover="this.style.backgroundColor = 'white'" onmouseout="this.style.backgroundColor = '#F5FAFE';">

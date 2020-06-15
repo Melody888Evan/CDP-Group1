@@ -31,12 +31,12 @@ BODY {SCROLLBAR-FACE-COLOR: #cccccc; SCROLLBAR-HIGHLIGHT-COLOR: #ffffFF; SCROLLB
 
 	<table width="100%" border="0" height="88" border="1" background="${pageContext.request.contextPath}/images/back1.JPG">
 		<tr>
-			<td colspan=3 class="ta_01" align="center" bgcolor="#afd1f3"><strong>系统首页</strong></td>
+			<td colspan=3 class="ta_01" align="center" bgcolor="#afd1f3"><strong>Index Page</strong></td>
 		</tr>
 
 		<tr>
 			<td width="65%" height="84" align="center" valign="top" >
-				 <span class="Style1">登录成功！</span> 
+				 <span class="Style1">Login Successfully！</span>
 			</td>
 		</tr>
 		<tr><td height=2></td></tr>

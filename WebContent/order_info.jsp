@@ -26,7 +26,7 @@
 				<table class="table table-bordered">
 					<tbody>
 						<tr class="warning">
-							<th colspan="5">订单编号:${order.oid }</th>
+							<th colspan="5">Order Num:${order.oid }</th>
 						</tr>
 						<tr class="warning">
 							<th>Photo</th>
@@ -49,7 +49,7 @@
 			</div>
 
 			<div style="text-align: right; margin-right: 120px;">
-				总计: <strong style="color: #ff6600;">$${order.total_price}</strong>
+				Total: <strong style="color: #ff6600;">$${order.total_price}</strong>
 			</div>
 
 		</div>
@@ -91,8 +91,8 @@
 					</p>
 					<hr />
 					<p style="text-align: right; margin-right: 150px;">
-						<input type="submit" class="mybutton" value="提交订单">
-						<!-- <a href="javascript:void(0)" id="submitForm" class="mybutton">提交订单</a> -->
+						<input type="submit" class="mybutton" value="submit the order">
+
 					</p>
 					<hr />
 
@@ -117,13 +117,13 @@
 				},
 				messages : {
 					"address" : {
-						"required" : "请输入收货地址"
+						"required" : "Please input the address"
 					},
 					"name" : {
-						"required" : "请输入收货人姓名"
+						"required" : "Please input the name of consignee"
 					},
 					"telephone" : {
-						"required" : "请输入联系电话"
+						"required" : "Please input the phone number"
 					}
 				}
 			});
@@ -131,7 +131,7 @@
 		});
 	</script>
 	
-	<!-- 引入footer.jsp -->
+
 	<jsp:include page="/footer.jsp"></jsp:include>
 </body>
 </html>

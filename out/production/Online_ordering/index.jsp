@@ -63,7 +63,8 @@
 					<div class="top-grid">
 						<a href="#"><img src="./images/icon2.png" title="icon-name"></a>
 						<h3>Our service</h3>
-						<p>统一订单及配送管理，提高配送效率！无忧售后，满足个性化需要。引领全新消费概念，订餐、消费拿积分！得精美礼品！</p>
+						<p>Users can place orders online and we can provide delivery management services to improve delivery efficiency.
+							At the same time, users can also choose to eat in the canteen to save queuing time.</p>
 						<a class="button" href="${pageContext.request.contextPath }/index">See More</a>
 					</div>
 					<div class="top-grid last-topgrid">
