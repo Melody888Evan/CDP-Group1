@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>菜单</title>
+<title>Menu</title>
 <link href="${pageContext.request.contextPath}/css/left.css" rel="stylesheet" type="text/css"/>
 <link rel="StyleSheet" href="${pageContext.request.contextPath}/css/dtree.css" type="text/css" />
 </head>

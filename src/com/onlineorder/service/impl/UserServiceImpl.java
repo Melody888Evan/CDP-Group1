@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
 	}
 	
 	@Override
-	//用户激活
+
 	public boolean active(String activeCode) {
 		// TODO Auto-generated method stub
 		int row = 0;

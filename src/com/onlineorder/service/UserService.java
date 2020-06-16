@@ -8,7 +8,7 @@ public interface UserService {
 		
 	public boolean register(User user);
 	
-	//用户激活
+	//user active
 	public boolean active(String activeCode);
 
 	public boolean checkUsername(String username);

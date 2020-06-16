@@ -14,7 +14,7 @@
 	function changeImg(obj) {
 		obj.src="${pageContext.request.contextPath }/checkImgServlet?time="+new Date().getTime();
 	}
-	//前端的表单校验
+
 	$(function () {
 		$("form[name='login']").submit(function () {
 			if ($("#username").val()=="") {

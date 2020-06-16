@@ -24,7 +24,7 @@ public class MenuServiceImpl implements MenuService {
 
 	private MenuDao menuDao = (MenuDao) BeanFactory.getBean("menuDao");
 	
-	//获得热门菜单
+
 	@Override
 	public List<Menu> findHotMenuList() {
 		// TODO Auto-generated method stub
@@ -37,7 +37,7 @@ public class MenuServiceImpl implements MenuService {
 		}
 		return list;
 	}
-	//获得最新菜单(推荐菜单)
+
 	@Override
 	public List<Menu> findNewMenuList() {
 		// TODO Auto-generated method stub
@@ -51,7 +51,7 @@ public class MenuServiceImpl implements MenuService {
 		return list;
 	}
 
-	//获得简介信息
+
 	@Override
 	public List<About> findAboutInfo() {
 		// TODO Auto-generated method stub
@@ -65,7 +65,7 @@ public class MenuServiceImpl implements MenuService {
 		return list;
 	}
 
-	//获得菜单属性列表
+
 	@Override
 	public List<Category> findAllCategory() {
 		// TODO Auto-generated method stub
@@ -105,7 +105,7 @@ public class MenuServiceImpl implements MenuService {
 		return pageBean;
 	}
 
-	//获得当前菜单属性名
+
 	@Override
 	public String getCategoryNameByCid(String cid) {
 		// TODO Auto-generated method stub
@@ -119,7 +119,6 @@ public class MenuServiceImpl implements MenuService {
 		return categoryName;
 	}
 
-	//获得Menu(菜肴);
 	@Override
 	public Menu getMenuByMid(String mid) {
 		// TODO Auto-generated method stub
@@ -135,7 +134,7 @@ public class MenuServiceImpl implements MenuService {
 		return menu;
 	}
 	
-	//购物车提交
+
 	@Override
 	public void submitCart(Order order) {
 		
@@ -154,7 +153,6 @@ public class MenuServiceImpl implements MenuService {
 		
 	}
 
-	//添加收货人信息
 	@Override
 	public void addConsigneeInfo(String name, String address, String telephone, String oid) {
 		// TODO Auto-generated method stub
@@ -166,7 +164,6 @@ public class MenuServiceImpl implements MenuService {
 		}
 	}
 
-	//更新订单状态
 	@Override
 	public void updateOrderState(String oid) {
 		// TODO Auto-generated method stub

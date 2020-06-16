@@ -1,18 +1,4 @@
-/*
- Navicat MySQL Data Transfer
 
- Source Server         : Tobu
- Source Server Type    : MySQL
- Source Server Version : 50560
- Source Host           : localhost:3306
- Source Schema         : online_order
-
- Target Server Type    : MySQL
- Target Server Version : 50560
- File Encoding         : 65001
-
- Date: 23/08/2019 18:47:39
-*/
 
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;

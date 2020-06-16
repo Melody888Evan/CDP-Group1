@@ -32,7 +32,7 @@
 	</script>
 </head>
 <body>
-	<!-- 引入页面头部 -->
+
 	<!----start-header----->
 	<jsp:include page="/header.jsp"></jsp:include>
 	<!----End-header----->
